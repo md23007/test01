@@ -21,9 +21,9 @@ class Calculator:
 
     # 割り算を行う関数を実装してください
     # @staticmethod
-    # def dev(a, b) -> float:
+    def dev(a, b) -> float:
     #     """割り算を行う."""
-
+        return a/b
     # 文字列を入力すると計算結果を返す関数を実装してください
     # @staticmethod
     # def cal_formula(formula:str) -> float:
@@ -39,6 +39,7 @@ if __name__ == '__main__':
     print(Calculator.add(numa, numb))
     print(Calculator.sub(numa, numb))
     print(Calculator.mul(numa, numb))
+    print(Calculator.dev(numa, numb))
 
 
     # 文字列の読み込み
