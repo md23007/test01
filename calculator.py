@@ -24,22 +24,26 @@ class Calculator:
     def dev(a, b) -> float:
     #     """割り算を行う."""
         return a/b
+
     # 文字列を入力すると計算結果を返す関数を実装してください
     # @staticmethod
-    # def cal_formula(formula:str) -> float:
+    def cal_formula(formula:str) -> float:
     #     """計算式の分割と計算"""
+        return eval(str)
 
 
 # テストコード
 if __name__ == '__main__':
     numa = 22
     numb = 11
+    str = "4*5"
 
     # 各関数のテストコードを作成してください
     print(Calculator.add(numa, numb))
     print(Calculator.sub(numa, numb))
     print(Calculator.mul(numa, numb))
     print(Calculator.dev(numa, numb))
+    print(Calculator.cal_formula(str))
 
 
     # 文字列の読み込み
